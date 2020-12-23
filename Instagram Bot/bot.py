@@ -46,8 +46,9 @@ class InstagramBot:
                 like.click()
 
             
-
-ed = InstagramBot('dev_jassi', 'Jassi@123')
+username = 'YOUR USERNAME';
+password = 'YOUR PASSWORD
+ed = InstagramBot(username, password)
 ed.login()
 ed.likeAndComment('therock')
 print("Done")
